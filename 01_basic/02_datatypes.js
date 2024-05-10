@@ -43,3 +43,14 @@ let myobj-{
 const myfun=function(){
     console.log("hello world");
 }
+
+
+
+// memory type *******************************************************
+
+
+/*
+stack (primitive)-> create copy
+heap(non primitive)-> take reference from heap area
+
+*/

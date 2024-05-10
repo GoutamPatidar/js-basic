@@ -18,3 +18,28 @@ object
 */
 
 console.log(typeof name);
+
+
+
+/*
+data types 2 types
+primitive and non primitive
+
+primitive
+7->string, number, null, undefined,symbol, bigInt
+
+non primitive
+array, object,functions
+
+*/
+
+const hero=["my", "name", "is","goutam"];
+
+let myobj-{
+    name: "goutam",
+    age=22,
+}
+
+const myfun=function(){
+    console.log("hello world");
+}

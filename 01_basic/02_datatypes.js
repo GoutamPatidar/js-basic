@@ -35,9 +35,9 @@ array, object,functions
 
 const hero=["my", "name", "is","goutam"];
 
-let myobj-{
-    name: "goutam",
-    age=22,
+let myobj={
+    names: "goutam",
+    age : 22,
 }
 
 const myfun=function(){

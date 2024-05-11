@@ -18,16 +18,21 @@ const regularUser = {
 }
 
 // console.log(regularUser.fullname.userfullname.firstname);
+//console.log(regularUser.fullname?.userfullname.firstname);
 
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 const obj4 = {5: "a", 6: "b"}
 
 // const obj3 = { obj1, obj2 }
-// const obj3 = Object.assign({}, obj1, obj2, obj4)
-
-const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
+
+// const obj3 = Object.assign({}, obj1, obj2, obj4)
+// console.log(obj3);
+
+// const obj3 = {...obj1, ...obj2} //->spread bolte h isko
+// console.log(obj3);
+
 
 
 const users = [
@@ -45,7 +50,7 @@ const users = [
     },
 ]
 
-users[1].email
+// users[1].email
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
@@ -66,17 +71,24 @@ const course = {
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
-console.log(instructor);
+// console.log(instructor); // object destructure bolte  h isko
 
+
+//api ->json format me atta h ( or dono tarike ko json format hi bolte h bs motation alg h)
+
+
+// json simple syntax (key and value bboth are string)
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
 
-[
-    {},
-    {},
-    {}
-]
+
+// another way of api data, in this data is come in json array formate
+// [
+//     {},
+//     {},
+//     {}
+// ]
 

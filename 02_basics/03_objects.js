@@ -1,5 +1,5 @@
-// singleton
-// Object.create
+// singleton->created using constructor
+// Object.create ->way to create singleton objects
 
 // object literals
 

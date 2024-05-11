@@ -63,8 +63,20 @@ const addTwo = (num1, num2) => {
 
 // const addTwo = (num1, num2) => ({username: "hitesh"})
 
-
 // console.log(addTwo(3, 4))
+
+// let me = { 
+//     name: "Ashutosh Verma", 
+//     thisInArrow:() => { 
+//     console.log("My name is " + this.name); // no 'this' binding here 
+//     }, 
+//     thisInRegular(){ 
+//     console.log("My name is " + this.name); // 'this' binding works here 
+//     } 
+//    };
+//    me.thisInArrow(); 
+//    me.thisInRegular();
+
 
 
 // const myArray = [2, 5, 3, 7, 8]

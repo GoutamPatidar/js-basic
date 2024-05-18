@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CHai or code</h1>
+    <buttton id="start">start</buttton>
+    <buttton id="stop">stop</buttton>
+    
+</body>
+<script>
+  const saydate=function(str){
+    console.log(`${str}`,Date.now());
+  }
+  
+  var strt;
+
+  document.querySelector("#start").addEventListener('click',function(){
+strt=setInterval(saydate,1000,"goutam")
+  })
+  document.querySelector("#stop").addEventListener('click',function(){
+    clearInterval(strt)
+  })
+  
+
+
+</script>
+</html>
